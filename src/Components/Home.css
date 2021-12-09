@@ -1,0 +1,129 @@
+
+
+*{
+    margin:0;
+    padding: 0;
+}
+.load{
+    animation:slide 2s;
+}
+
+.slider{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+    animation:slide 25s infinite;
+    transition: "all 2s ease-out";
+    display: block;
+ 
+}
+
+.content {
+    color:black;
+    font-weight: lighter;
+    padding: 15%;
+    width:100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.192);
+}
+
+.principal{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50);
+}
+
+.home::before{
+    content: '';
+    background-repeat: no-repeat;
+    background-size: 250%;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1; 
+    
+}
+
+.btn{
+    margin-top: 30px;
+    font-size: 120%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:black;
+    border-radius: 0;
+    border-color: black;
+}
+
+.btn:hover{
+    background-color: rgb(255, 226, 188);
+}
+
+.header{
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-size: 360%;
+    font-family: 'Noto Sans JP', sans-serif;
+    color:black;
+}
+
+.fadeTop{
+    opacity: 0;
+    transform: translateY(10vh);
+    transition: all 1.5s;
+}
+
+
+.visible{
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+
+
+
+@keyframes slide {
+    0%{
+        background-image: url('../images/remera-zapatillas.jpg');
+    }
+    0.01%{
+        background-image: url('../images/remera-zapatillas.jpg');
+    }
+    25%{
+        background-image: url('../images/remera-zapatillas.jpg');
+    }
+    25.01%{
+        background-image: url('../images/buzo-jean.jpg');
+    }
+    50%{
+        background-image: url('../images/buzo-jean.jpg');
+    }50.01%{
+        background-image: url('../images/camara-ropa.jpg');
+    }
+    75%{
+        background-image: url('../images/camara-ropa.jpg');
+    }
+    75.01% {
+        background-image: url('../images/remera-zapatillas.jpg');
+    }99%{
+        background-image: url('../images/remera-zapatillas.jpg');
+
+    }
+}
+
+@media (max-width: 992px) {
+    .slider{
+        height: 67vh;
+        margin-top: 30%;
+        padding: 10%;
+    }
+    .header{
+        font-size: 210%;
+    }
+    .btn{
+        font-size: 100%;
+    }
+    
+}

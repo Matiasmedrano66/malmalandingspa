@@ -1,0 +1,33 @@
+.smart-scroll{
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    opacity: 1;
+  }
+  .scrolled-down{
+     transform:translateY(-100%); transition: all 0.3s ease-in-out;
+  }
+  .scrolled-up{
+     transform:translateY(0%); transition: all 0.3s ease-in-out;
+  }
+
+  .navbar{
+    font-size: 120%;
+    font-family: 'Noto Sans JP', sans-serif;
+  
+  }
+
+  .navbar-brand{
+    font-size: 160%;
+  
+  }
+
+  @media(max-width: 992){
+   .navbar{
+       padding-left: 10%;
+   }
+  }
+
+  

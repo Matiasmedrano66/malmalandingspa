@@ -1,0 +1,62 @@
+.contact{
+    background-color: #FCF8EC;
+    text-align: center;
+    padding: 2% 5%;
+}
+
+.social-container{
+    text-align: left;
+}
+
+.social-media-title{
+    margin-top: 5%;
+}
+
+.social-media-img{
+    width: 10%;
+    max-height: 50%;
+}
+
+
+
+.mail{
+    text-decoration: none;
+    color:rgb(112, 48, 48);
+    font-style: italic;
+}
+
+.fadeTop{
+    opacity: 0;
+    transform: translateY(10vh);
+    transition: all 1.5s;
+}
+
+
+.visible{
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+@media (max-width: 992px) {
+    .contact{
+        padding: 10% 5% 0% 5%;
+       
+    }
+    .social-media-title{
+        font-size: 70%;
+        
+    }
+    .social-media-text{
+        visibility: hidden;
+     
+      
+    }
+
+    .social-container{
+        margin-bottom: 2%;;
+    }
+    
+    .social-container-large{
+        visibility: hidden;
+    }
+}

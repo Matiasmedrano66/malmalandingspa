@@ -1,0 +1,17 @@
+.addres-icon{
+    margin-right: 0;
+    text-align: center;
+    padding: 0;
+}
+
+.footer{
+    background-color: #e9ddce;
+    padding: 3% 2% 1% 2% ;
+}
+
+@media (max-width: 992px) {
+    .addres-container p{
+        font-size: 80%;
+    }
+
+}

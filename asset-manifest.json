@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/malmalandingspa/static/css/main.01e546bd.chunk.css",
-    "main.js": "/malmalandingspa/static/js/main.cc420a3a.chunk.js",
-    "main.js.map": "/malmalandingspa/static/js/main.cc420a3a.chunk.js.map",
+    "main.css": "/malmalandingspa/static/css/main.57b909f3.chunk.css",
+    "main.js": "/malmalandingspa/static/js/main.f35fa1d9.chunk.js",
+    "main.js.map": "/malmalandingspa/static/js/main.f35fa1d9.chunk.js.map",
     "runtime-main.js": "/malmalandingspa/static/js/runtime-main.b43ed3b5.js",
     "runtime-main.js.map": "/malmalandingspa/static/js/runtime-main.b43ed3b5.js.map",
     "static/js/2.852401e3.chunk.js": "/malmalandingspa/static/js/2.852401e3.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.b452e449.chunk.js": "/malmalandingspa/static/js/3.b452e449.chunk.js",
     "static/js/3.b452e449.chunk.js.map": "/malmalandingspa/static/js/3.b452e449.chunk.js.map",
     "index.html": "/malmalandingspa/index.html",
-    "static/css/main.01e546bd.chunk.css.map": "/malmalandingspa/static/css/main.01e546bd.chunk.css.map",
+    "static/css/main.57b909f3.chunk.css.map": "/malmalandingspa/static/css/main.57b909f3.chunk.css.map",
     "static/js/2.852401e3.chunk.js.LICENSE.txt": "/malmalandingspa/static/js/2.852401e3.chunk.js.LICENSE.txt",
     "static/media/Home.css": "/malmalandingspa/static/media/remera-zapatillas.521e4794.jpg",
     "static/media/carousel-pic-1.4acd0443.jpg": "/malmalandingspa/static/media/carousel-pic-1.4acd0443.jpg",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.b43ed3b5.js",
     "static/js/2.852401e3.chunk.js",
-    "static/css/main.01e546bd.chunk.css",
-    "static/js/main.cc420a3a.chunk.js"
+    "static/css/main.57b909f3.chunk.css",
+    "static/js/main.f35fa1d9.chunk.js"
   ]
 }

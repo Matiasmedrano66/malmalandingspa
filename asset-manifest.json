@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/malmalandingspa/static/css/main.01e546bd.chunk.css",
+    "main.js": "/malmalandingspa/static/js/main.cc420a3a.chunk.js",
+    "main.js.map": "/malmalandingspa/static/js/main.cc420a3a.chunk.js.map",
+    "runtime-main.js": "/malmalandingspa/static/js/runtime-main.b43ed3b5.js",
+    "runtime-main.js.map": "/malmalandingspa/static/js/runtime-main.b43ed3b5.js.map",
+    "static/js/2.852401e3.chunk.js": "/malmalandingspa/static/js/2.852401e3.chunk.js",
+    "static/js/2.852401e3.chunk.js.map": "/malmalandingspa/static/js/2.852401e3.chunk.js.map",
+    "static/js/3.b452e449.chunk.js": "/malmalandingspa/static/js/3.b452e449.chunk.js",
+    "static/js/3.b452e449.chunk.js.map": "/malmalandingspa/static/js/3.b452e449.chunk.js.map",
+    "index.html": "/malmalandingspa/index.html",
+    "static/css/main.01e546bd.chunk.css.map": "/malmalandingspa/static/css/main.01e546bd.chunk.css.map",
+    "static/js/2.852401e3.chunk.js.LICENSE.txt": "/malmalandingspa/static/js/2.852401e3.chunk.js.LICENSE.txt",
+    "static/media/Home.css": "/malmalandingspa/static/media/remera-zapatillas.521e4794.jpg",
+    "static/media/carousel-pic-1.4acd0443.jpg": "/malmalandingspa/static/media/carousel-pic-1.4acd0443.jpg",
+    "static/media/carousel-pic-2.c531cebc.jpg": "/malmalandingspa/static/media/carousel-pic-2.c531cebc.jpg",
+    "static/media/carousel-pic-3.76defb0f.jpg": "/malmalandingspa/static/media/carousel-pic-3.76defb0f.jpg",
+    "static/media/logo.6ce24c58.svg": "/malmalandingspa/static/media/logo.6ce24c58.svg",
+    "static/media/mapa.8b86a0c2.png": "/malmalandingspa/static/media/mapa.8b86a0c2.png",
+    "static/media/mujer-sweater.468ce647.jpg": "/malmalandingspa/static/media/mujer-sweater.468ce647.jpg",
+    "static/media/sweater-1.4727fa99.jpg": "/malmalandingspa/static/media/sweater-1.4727fa99.jpg",
+    "static/media/sweater-2.27166eb1.jpg": "/malmalandingspa/static/media/sweater-2.27166eb1.jpg",
+    "static/media/sweater-3.faebc268.jpg": "/malmalandingspa/static/media/sweater-3.faebc268.jpg",
+    "static/media/tres-sweaters.adc07a33.jpg": "/malmalandingspa/static/media/tres-sweaters.adc07a33.jpg",
+    "static/media/women-sweater-1.7a599daa.jpg": "/malmalandingspa/static/media/women-sweater-1.7a599daa.jpg",
+    "static/media/women-sweater-2.b72263c5.jpg": "/malmalandingspa/static/media/women-sweater-2.b72263c5.jpg",
+    "static/media/women-sweater-3.a0d7d96a.jpg": "/malmalandingspa/static/media/women-sweater-3.a0d7d96a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b43ed3b5.js",
+    "static/js/2.852401e3.chunk.js",
+    "static/css/main.01e546bd.chunk.css",
+    "static/js/main.cc420a3a.chunk.js"
+  ]
+}

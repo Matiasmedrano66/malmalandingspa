@@ -15,6 +15,7 @@ const Contact = () => {
                 </svg>
                 <h6 className="social-media-title">WHATSAPP</h6>
                 <a class="whatsappLink mobile social-media-link" href="whatsapp://send?text=Hello Matías! I ..&phone=+543515159949&abid=+543515159949">+54351-5159949 </a>
+                <br/>
                 <a class="whatsappLink desktop social-media-link" href="http://web.whatsapp.com/send?text=Hola Matías! Quiero contactarme contigo..&phone=+543515159949&abid=+543515159949">+54351-5159949</a></div>
             <div className="social-container-large col-lg-3">
 

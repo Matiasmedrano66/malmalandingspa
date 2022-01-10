@@ -39,6 +39,11 @@
     transform: translate(0, 0);
 }
 
+.whatsappLink.mobile {
+    visibility: hidden;
+    
+  }
+
 @media (max-width: 992px) {
     .contact{
         padding: 10% 5% 0% 5%;
@@ -50,8 +55,7 @@
     }
     .social-media-text{
         visibility: hidden;
-     
-      
+   
     }
 
     .social-container{
@@ -61,20 +65,15 @@
     .social-container-large{
         visibility: hidden;
     }
-}
-
-.whatsappLink.mobile{
-    display: none;
-   
-  }
-
-@only screen and (max-width:1024px){
     .whatsappLink.desktop {
-      display: none;
+        visibility: hidden;
+        
+      }
+      .whatsappLink.mobile{
+        visibility: visible;
+        display: inline;
       
-    }
-    .whatsappLink.mobile{
-      display: inline;
-    
-    }
+      }
 }
+
+

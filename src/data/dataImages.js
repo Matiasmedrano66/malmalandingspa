@@ -56,7 +56,7 @@ const dataImages = {
             id:1,
             imgSrc: sweater3,
             title: 'brown sweater',
-            active: 'active',
+            active: '',
             card: "sweaters-modal-3",
             carouselId: 'carousel-images-three'
         },

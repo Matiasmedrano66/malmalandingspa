@@ -11,6 +11,7 @@ const ImageCarousel = props => {
             </div>
             <div class="carousel-inner">
                 {props.dataImages.map(image => {
+                    
                     return(
                         <div class={`carousel-item  + ${image.active}`}>
                             <img src={image.imgSrc} class="d-block w-100" alt={image.title}/>

@@ -10,7 +10,7 @@ const ModalGallery = props => {
          
             <div class="modal-content modal-content-gallery">
             <div class="modal-body">
-            <ImagesGalleryCarousel dataImages={props.dataImages}/>
+            <ImagesGalleryCarousel dataImages={props.dataImages} picId={props.picId} picTitle={props.picTitle} picSrc={props.picSrc}/>
             </div>   
             </div>
             

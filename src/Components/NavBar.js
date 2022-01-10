@@ -38,21 +38,29 @@ const NavBar = () => {
            <div class="collapse navbar-collapse" id="navbarNav">
            <ul class="navbar-nav">
                <li class="nav-item">
-               <a class="nav-link" href="#about-us">About Us</a>
+                    <a class="nav-link" href="#about-us">About Us</a>
                </li>
                <li class="nav-item">
-               <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link" href="#presentation">Assesment</a>
                </li>
-          
+               <li class="nav-item">
+                    <a class="nav-link" href="#products">Products</a>
+               </li>
+               <li class="nav-item">
+                    <a class="nav-link" href="#press-comments">Press</a>
+               </li>   
+               <li class="nav-item">
+                    <a class="nav-link" href="#contact-title">Contact</a>
+               </li>
+               <li class="nav-item">
+                    <a class="nav-link" href="#social-media">Social-Network</a>
+               </li>   
+               
+                      
            </ul>
            </div>
-       </div>
-          
-           
-   </nav>
-      
-      
-   
+       </div>  
+   </nav>   
     )
 }
 

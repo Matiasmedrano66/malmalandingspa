@@ -1,0 +1,17 @@
+.products{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.products-gallery-img{
+    width: 100%;
+}
+.products-gallery-img:hover{
+    border: 5px solid white;
+    filter: brightness(1.1);
+}
+
+.column-img{
+    padding: 15px !important;
+    margin: 0 !important;
+}

@@ -1,0 +1,15 @@
+
+
+@media (max-width: 992px) {
+.carousel-indicators{
+    visibility: hidden;
+}
+.carousel-gallery-buttons{
+    visibility: hidden;
+}
+.carousel-inner{
+    display: inline-block
+   
+}
+
+}

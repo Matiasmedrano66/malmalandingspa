@@ -1,0 +1,23 @@
+
+.modal-content-gallery{
+    padding: 0 !important;
+    background: rgba(0,0,0,0.0) !important;
+    border-width: 0;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.btn-close{
+    color: white !important;
+}
+@media (max-width: 992px){
+    .modal-content-gallery{
+       width: 190%;
+    }
+}

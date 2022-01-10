@@ -1,28 +1,23 @@
 import React, {useEffect, useState} from "react";
 import PicOne from '../images/tres-sweaters.jpg';
 import PicTwo from '../images/mujer-sweater.jpg';
+import Modal from './Modal.js';
 import './AboutUs.css';
+import dataImages from "../data/dataImages";
 
-const AboutUs = () => {
-    
+const AboutUs = () => {  
     const [headerEffect, setHeaderEffect] = useState('');
     const [subHeaderEffect, setSubHeaderEffect] = useState('');
     const [buttonEffect, setButtonEffect] = useState('');
     const [textEffect, setTextEffect] = useState('');
     const [offsetY, setOffsetY] = useState(0);
-  
-
 
     const handleScroll = () => {
-    
       setOffsetY(window.pageYOffset);
-  
       }
   
     useEffect(() => {
       window.addEventListener("scroll", handleScroll);
-      
-  
       return () => window.removeEventListener("scroll", handleScroll);
     }, []);
   
@@ -43,11 +38,9 @@ const AboutUs = () => {
                 setTimeout(()=>{setButtonEffect('visible')}, 1100);
             }
     
-        })
-      
+        })     
     }, []);
  
-
 
     return (
    
@@ -65,7 +58,8 @@ const AboutUs = () => {
                     Ut neque sapien, volutpat sed leo sit amet, rutrum tristique ex. Nulla non facilisis ante. 
                     Sed sit amet imperdiet quam. Suspendisse suscipit arcu nec consectetur aliquam.
                     </p>
-                    <button type="button" className={`btn btn-outline-light fadeTop ${buttonEffect}`}>More Info</button>
+                    <button type="button" className={`btn btn-outline-light fadeTop ${buttonEffect}`} data-bs-toggle="modal" data-bs-target="#sweaters-modal">See More</button>
+                     <Modal dataImages={dataImages.cardOne}/>        
             </div>
             <div className="image-one col-lg-6  col-xs-12" >
                 <img className="pic" src={PicOne} style={{ transform: `translateY(-${offsetY/10}px)`, transition: "all 2s ease-out" }}/>
@@ -86,7 +80,8 @@ const AboutUs = () => {
                     Sed sit amet imperdiet quam. Suspendisse suscipit arcu nec consectetur aliquam. 
                     Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris lobortis tortor.
                     .</p>
-                    <button type="button" className={`btn btn-outline-light fadeTop ${buttonEffect}`}>More Info</button>
+                    <button type="button" className={`btn btn-outline-light fadeTop ${buttonEffect}`} data-bs-toggle="modal" data-bs-target="#sweaters-modal2">See More</button>
+                    <Modal dataImages={dataImages.cardTwo}/> 
             </div>
         
             <div className="divisor col-12">

@@ -8,18 +8,12 @@ const Home = () =>{
     const [buttonEffect, setButtonEffect] = useState('');
     const [offsetY, setOffsetY] = useState(0);
   
-
-
-    const handleScroll = () => {
-    
+    const handleScroll = () => {   
       setOffsetY(window.pageYOffset);
-  
       }
   
     useEffect(() => {
-      window.addEventListener("scroll", handleScroll);
-      
-  
+      window.addEventListener("scroll", handleScroll); 
       return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
@@ -27,8 +21,7 @@ const Home = () =>{
     useEffect(() => {
         const appear = ()=> {
             let element = document.getElementById('scroll-content');
-         
-    
+     
             if(element.getBoundingClientRect().bottom == 0){
                 setTimeout(()=>{setSubHeaderEffect('visible')}, 400);
                 setTimeout(()=>{setHeaderEffect('visible')}, 800);
@@ -40,13 +33,8 @@ const Home = () =>{
             }
     
         };
-        appear();
-      
+        appear();      
     }, []);
-
-        
-       
-      
 
 
     return (
@@ -57,7 +45,9 @@ const Home = () =>{
                 <div className="principal">
                     <h5 className={`sub-header-home fadeTop ${subHeaderEffect}`}>AUTUM SEASON</h5>
                     <h2 className={`header fadeTop ${headerEffect}`}>Malma Designs</h2>
-                    <button type="button" class={`btn btn-outline-light fadeTop ${buttonEffect}`}>More About</button>
+                    <a href="#contact-title">
+                        <button type="button" class={`btn btn-outline-light fadeTop ${buttonEffect}`}>Contact us</button>
+                    </a>
                 </div>
             </div>
 
